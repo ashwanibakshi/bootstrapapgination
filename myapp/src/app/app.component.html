@@ -1,0 +1,5 @@
+<div *ngFor="let user of users">
+  
+  {{user.name}}
+</div>
+<ngb-pagination class="d-flex justify-content-center" [collectionSize]="numbers" [maxSize]="itemsPerPage" [(page)]="page" (pageChange)="getsample($event)"></ngb-pagination>
